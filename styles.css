@@ -6,19 +6,17 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
-    background-color: #f4f4f4;
 }
 
 .timer-container {
-    font-size: 2rem;
     margin-bottom: 20px;
 }
 
-.button-container {
+.button-container,
+.control-buttons {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
+    flex-wrap: wrap;  /* Allows buttons to wrap if the screen is narrow */
+    gap: 10px;        /* Space between buttons */
 }
 
 button {
